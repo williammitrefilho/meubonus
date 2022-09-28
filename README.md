@@ -23,4 +23,4 @@ As is common in bookkeeping, there is no way to "delete" a transaction. A mistak
 ### 3. Installing
 1. Clone the repository
 2. Update the [config.php](cfg/config.php) file with your database and domain credentials
-3. In MySQL, insert your admin user in table **mb_usuarios_admin**, your coworkers in **mb_usuarios**, and their accounts on **mb_contas**
+3. In MySQL, insert your admin user into table **mb_usuarios_admin**, your coworkers into **mb_usuarios**, and their accounts into **mb_contas**
