@@ -1,0 +1,15 @@
+<?php
+define("DB_CHARSET", "utf8");
+define("DB_DBNAME", "meubonus");
+define("DB_HOST", "meubonus.mysql.uhserver.com");
+define("DB_PASSWORD", "Wmitre89745@");
+define("DB_PORT", 3306);
+define("DB_USER", "william_mitre17");
+
+define("DIR_CONTROLE", "/var/www/html/sbmate.com.br/web/meubonus/admin/classes/controle/");
+define("DIR_MODEL", "/var/www/html/sbmate.com.br/web/meubonus/admin/classes/model/");
+define("DIR_TEMPLATE", "/var/www/html/sbmate.com.br/web/meubonus/admin/templates/");
+define("DIR_IMG", "img/");
+define("DIR_SCRIPTS", "js/");
+define("URL_INDEX", "");
+?>

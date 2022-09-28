@@ -1,0 +1,333 @@
+a.inv{
+    border:0px;
+    
+}
+a.voltar{
+    padding:20px;
+    font-size:18px;
+}
+div.input{
+    border-bottom:1px solid #aaa;
+    height:50px;
+    text-align:center;
+    width:90%;
+    margin:20px auto;
+}
+div.input .label{
+    display:block;
+    text-align:left;
+}
+div.input .texto{
+    font-size:18px;
+}
+.btn.acesso, .btn.acesso:hover{
+    background:#29ab29;
+    width: 100%;
+    height: 50px;
+    color:#fff;
+    font-size: 20px;
+}
+.btn-enviar{
+    text-align:center;
+    color:#fff;
+    background:green;
+    padding:15px 0px;
+    font-size:25px;
+    cursor:pointer;
+}
+.btn-fechar{
+    float:right;
+    cursor:pointer;
+    padding:30px;
+    font-size:19px;
+    color:#aaa
+}
+.btn-menu{
+  
+  display:table;
+  padding:20px;
+  border:1px solid #ccc;
+  margin:20px;
+  cursor:pointer;
+}
+.calendario{
+    margin:50px auto;
+    background:#fff;
+}
+.calendario td{
+    color: #4d79c7;
+    border: 1px solid #e8d6d6;
+    width:70px;
+    height:50px;
+    text-align:center;
+    font-size:19px;
+}
+.calendario td.fora{
+    color:#aaa
+}
+.calendario tr:first-of-type td{
+    border:0px;
+    border-bottom:1px solid #e8d6d6;
+    font-size:20px;
+    color:#c71
+}
+.calendario tr:nth-of-type(2) td{
+    border:0px;
+    font-size:15px;
+    color:#c71;
+}
+.clicavel{
+    color:#49b;
+    text-decoration:underline;
+    font-size:17px;
+    padding:7px;
+}
+.cont-calendario{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.container-btns{
+    height:150px;
+}
+.container-contas{
+    margin:auto;
+    max-width:1000px;
+    padding:10px;
+}
+.container-contas .conta{
+   margin:20px 40px; 
+}
+.container-contas .conta a.link{
+    font-size:22px;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    color:#000;
+    border:1px solid #aaa;
+    border-radius:3px;
+    padding:15px 25px;
+}
+.container-contas .conta a .saldo{
+    float:right;
+    color:#00b732;
+}
+.container-form-extrato{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:#fff;
+    width:95%;
+}
+.container-form-extrato .btn-consulta{
+    display:block;
+    font-size:20px;
+    width: 35%;
+    margin:20px;
+    float:left;
+    text-align:center;
+    border:1px solid #ccc;
+    padding:20px 0px;
+}
+.container-form-extrato .titulo{
+    margin:10px;
+    font-weight:400;
+    font-size:25px;
+}
+.container-form-extrato .subtitulo{
+    font-weight:400;
+    font-size:20px;
+    margin:20px;
+    display: block;
+}
+.container-mini-extrato{
+    margin:0px 5px;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.container-mini-extrato .container-ajax img{
+    height:100px;
+    margin: 9px auto;
+    display:block;
+}
+.extrato{
+    margin:auto;
+    width: 70%;
+}
+.extrato tr:first-of-type td{
+    color:#777;
+    font-size:21px;
+}
+.extrato td{
+    padding:5px;
+    border-bottom:1px solid #ccc;
+    font-size: 16px;
+}
+.form-login{
+    margin: 15px auto;
+    font-size:20px;
+}
+.form-login td{
+    padding:5px;
+    font-size: 16px;
+}
+.form-login tr:not(:last-of-type) td:last-of-type{
+    text-align:right;
+}
+.form-login tr:last-of-type td{
+    text-align:center;
+    padding:20px;
+}
+.in-login{
+    border:1px solid #ccc;
+    font-size: 19px;
+    height: 40px;
+    padding-left: 7px;
+}
+.ind-dias{
+  text-decoration:none;
+  color:#fff;
+  padding:10px;
+  margin-left:10px;
+  font-size:17px;
+}
+.ind-dias.selecionado a{
+  color:#ea3;
+  font-weight:bold;
+  font-size:17px;
+}
+.ind-dias a{
+  color:#000;
+}
+.input .label{
+    color:#999;
+    font-size:18px;
+}
+.menu{
+  display:block;
+  height:100%;
+  position:fixed;
+  float:left;
+  width:300px;
+  background: rgba(10, 30, 70, 0.8);
+}
+.menu .pagina{
+  
+  width:200px;
+  margin:20px auto;
+}
+.menu .pagina a{
+  
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+.mini-extrato .texto{
+    margin:auto;
+    display:table;
+    padding:9px;
+}
+.msg-erro{
+    margin:10px auto;
+    max-width:400px;
+    text-align:center;
+    color:#c57;
+}
+.nome-pagina{
+    background: #228fff;
+    padding:20px 0;
+}
+.nome-pagina h3{
+    color:#fff;
+    margin-left:15px;
+}
+.obs{
+    display:block;
+    font-size: 14px;
+    color:#777;
+    margin:0px 3px;
+}
+.pagto{
+  max-width:700px;
+  margin: 10px auto;
+  border:1px solid #ccc;
+  padding:10px;
+  border-radius:7px;
+}
+@media only screen and (max-width: 700px) {
+  .pagto {
+    margin: 10px 20px;
+  }
+}
+.pagto .data{
+  font-weight:bold;
+  font-size:17px;
+}
+.pagto .valor.total{
+  color:#4a1;
+}
+.pagto .dets{
+  margin:10px auto;
+  width:90%;
+}
+.pagto .dets td{
+  padding:5px;
+}
+.pagto .dets tr.total td{
+  font-weight:bold;
+  border-top:1px solid #ccc;
+}
+.pagto .dets td:last-of-type{
+  text-align:right;
+}
+.sombra, .container-calendario{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0,0, 0.4);
+}
+.subtitulo{
+  display:block;
+  font-size:20px;
+  margin:20px;
+}
+.subtitulo-1{
+  display:block;
+  font-size:15px;
+  margin: 5px;
+}
+.tabela-extrato{
+    width:95%;
+    border-spacing:0px;
+    font-size:17px;
+    margin:9px auto;
+}
+.tabela-extrato .titulo{
+    font-size:21px;
+    color: #777;
+}
+.tabela-extrato td{
+    padding:5px;
+}
+.tabela-extrato tr:not(:last-of-type) td{
+    border-bottom:1px solid #ddd;
+}
+td.pos{
+    color: #0e8c30;
+}
+td.neg{
+    color:red;
+}
+.tabela-extrato td:not(:first-of-type){
+    text-align:right;
+}
+.usuario{
+    text-align: right;
+    margin:20px;
+    clear: both;
+}

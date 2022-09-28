@@ -1,0 +1,486 @@
+.atividade{
+    padding:5px;
+    cursor:pointer;
+    margin:3px;
+}
+.atividade .descricao{
+    position:relative;
+    clear: both;
+    margin-top: 5px;
+}
+.atividade .descricao .ajax img{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:170px;
+    margin-bottom:170px;
+    width:40px;
+    height:40px;
+    display:block;
+}
+.atividade .descricao .imagem{
+    height: 350px;
+    overflow:hidden;
+    background:#aaa;
+}
+.atividade .descricao .imagem img{
+    margin: auto;
+    display: block;
+    height: 350px;
+}
+.atividade .nome{
+    float:left;
+    font-size: 15px;
+    color: #555;
+}
+.atividade .principal{
+    margin-bottom:5px;
+    height: 35px;
+}
+.atividade .container-barra{
+    width: 70%;
+    float: right;
+    margin-right: 12px;
+}
+.atividade .nome{
+    padding: 5px;
+    width: 25%;
+}
+.atividade .texto{
+    top: 5px;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    color: #777;
+}
+.auto-nomes{
+    position:absolute;
+    background:#fff;
+    border:1px solid #eee;
+    width:330px;
+}
+.auto-nomes .ajax img{
+    width:30px;
+    margin:auto;
+    display:block
+}
+.auto-nomes .nome{
+    padding:5px;
+    border-bottom:1px solid #ccc;
+    cursor:pointer;
+}
+.barra-progresso{
+    border-radius:3px;
+    border:1px solid #ccc;
+    height: 27px;
+    position: relative;
+}
+
+.barra-progresso .progresso{
+    background:#8e5;
+    border-radius:2px;
+    float: left;
+    height: 25px;
+    height:27px;
+    float:left;
+}
+.barra-progresso .progresso .texto-progresso{
+    width:50px;
+    color:#555;
+    padding:3px;
+}
+.bold{
+    font-weight:bold;
+}
+.boletos{
+    border-top:1px solid #ccc;
+}
+.boleto{
+    border-bottom:1px solid #ddd;
+    padding:7px;
+}
+.boleto .acoes{
+    padding:1px;
+    margin-top:7px;
+}
+.boleto .acoes .ajax{
+    height:22px;
+}
+.boleto .acoes .btn{
+    margin:4px;
+    color:#fff;
+    padding:3px;
+    border-radius:2px;
+}
+.boleto .acoes .btn.atualizado{
+    background:#eb4
+}
+.boleto .acoes .btn.pago{
+    background:#5b7;
+}
+.boleto .acoes.atualizado{
+    background:#fe8;
+}
+.boleto .acoes.pago{
+    background:#ae7;
+}
+.boleto .bold{
+    font-size:16px;
+}
+.boleto .info{
+    font-size:14px;
+}
+.btn.imprimir{
+    float:right;
+}
+.btn.submit{
+    margin:5px;
+    color:#fff;
+    background:#8c5;
+}
+.btn.submit:hover{
+    color:#fff;
+}
+.calendario{
+    width:336px;
+    position:absolute;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.calendario .btn.mais{
+    float:right;
+}
+.calendario .dia{
+    width:40px;
+    float:left;
+    margin:1px;
+    border:1px solid #5ac;
+    height:30px;
+    padding:2px;
+    cursor:pointer;
+    border-radius:2px;
+}
+.calendario .dia.desativado{
+    color:#aaa;
+}
+.calendario .dia.hoje{
+    background:#aef;
+}
+.container-orcamento{
+    position:relative;
+}
+.container-orcamento .container-total{
+    width:150px;
+    position:absolute;
+    right:310px;
+    height:100px;
+    top:20px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding: 10px;
+}
+.container-orcamento .container-total h5{
+    margin-bottom: 11px;
+}
+.container-orcamento .container-total .btn.aprovar{
+    border:0px;
+    background:#7c5;
+    color:#fff;
+    width: 150px;
+    height:25px;
+    cursor:pointer;
+}
+.container-orcamento .container-total .valor{
+    margin-bottom:5px;
+    display:block;
+    text-align:right;
+    color: #8c4;
+}
+.container-orcamento .conteudo{
+    margin-left:20px;
+}
+.container-orcamento .conteudo h5{
+    margin-bottom:10px;
+}
+.container-orcamento .conteudo .atividade{
+    margin-left:10px;
+}
+.container-orcamento .conteudo .atividade .titulo{
+    width:500px;
+    float:left;
+    font-size:14px;
+    border:1px solid #ccc;
+    padding:4px;
+}
+.container-orcamento .conteudo .atividade .valor{
+    float:left;
+    width:100px;
+    color:#8c4;
+    padding:3px;
+    text-align:right;
+    border:1px solid #ccc;
+}
+.container-orcamento .header{
+    height:170px;
+    width:300px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.container-orcamento .header h5{
+
+}
+.container-orcamento .header .info{
+    font-size:15px;
+    margin-left:10px;
+    color: #888;
+}
+.container-orcamento .engenheiro{
+    float:right;
+    position:absolute;
+    right:20px;
+    top:20px;
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius:3px;
+    width:260px;
+    height:100px;
+}
+.container-orcamento .engenheiro span{
+    font-size:15px;
+    margin-left:5px;
+}
+.container-orcamento .engenheiro h5{
+    font-size:17px;
+    margin-bottom:5px;
+}
+.container-propostas{
+    margin-left:10px;
+}
+.container-propostas .propostas{
+    margin-left:10px;
+}
+.espaco{
+    float:left;
+    margin:10px;
+}
+.formulario input{
+    border:1px solid #ccc;
+    font-size:16px;
+    width:290px;
+    text-align:center;
+}
+.header .usuario{
+    text-align:right;
+}
+.header .usuario a{
+    font-size:15px;
+}
+.info{
+    font-size:15px;
+    color:#999;
+}
+.lista.pagtos{
+    font-size:12px;
+}
+.lista.pagtos .btn.tabela{
+    font-size: 11px;
+    padding: 0;
+}
+.lista.pagtos .pagto{
+    margin-left:5px;
+}
+.lista.pagtos .pagto td{
+    padding: 9px;
+    border-bottom:1px solid #999;
+}
+.lista.pagtos .pagto .tipo{
+    width:300px
+}
+.lista.pagtos .pagto .valor{
+    width: 100px;
+    text-align:right;
+}
+.main .conteudo{
+    padding:20px;
+}
+.middle{
+    padding:20px;
+}
+.proposta{
+    width: 560px;
+    border:1px solid #ccc;
+    padding:5px;
+    position: relative;
+}
+
+.proposta .btn{
+    text-decoration:none;
+    background: linear-gradient(#5CA, #3A6);
+    color:#fff;
+    padding:5px 15px;
+    border-radius:5px;
+    font-size:14px;
+    margin-top:70px;
+}
+.proposta .container-btn{
+    display:table-cell;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.proposta .info-proposta .nome{
+    font-size:16px;
+    font-weight:bold;
+    color:#47a;
+}
+.proposta .info-proposta .texto-info{
+    padding:10px;
+    font-size:14px;
+}
+.proposta .info-proposta .pagto{
+    border-bottom:1px solid #eee;
+    /* padding:10px 0; */
+    font-size:14px;
+}
+.proposta .info-proposta .pagto span{
+    padding: 10px;
+    display: table-cell;
+}
+.proposta .info-proposta .pagto .valor{
+}
+.proposta .info-proposta{
+
+    display:table-cell;
+    width: 360px;
+}
+.proposta .info-proposta .pagto .forma img{
+
+    width: 40px;
+    height: 25px;
+}
+.proposta .info-proposta .pagto .forma{
+}
+.proposta .info-proposta .pagto .valor{
+    width: 200px;
+    text-align: right;
+}
+.proposta .total{
+    font-size:14px;
+    margin:10px;
+}
+.main, .menu, .footer, .header{
+    margin:auto;
+    max-width: 1100px;
+}
+.menu .pagina{
+
+    float:left;
+    background:#2ac;
+    padding:7px;
+}
+.menu .pagina a{
+    text-decoration:none;
+    color:#fff;
+}
+.nome-pagina{
+
+    background:#2ac;
+    color:#fff;
+    clear:both;
+    padding:1px 0 1px 10px;
+}
+.obras-cliente-main .barra-progresso{
+    margin-top:5px;
+}
+.orcamentos-cliente-main, .obras-cliente-main, .solicitacoes{
+
+    margin:10px;
+    border:1px solid #eee;
+    width:378px;
+    padding:10px;
+    float:left;
+}
+.orcamentos-cliente-main .orcamento, .obras-cliente-main .obra{
+    border-bottom:1px solid #eee;
+    padding:5px;
+    font-size:12px;
+}
+.orcamentos-cliente-main a, .obras-cliente-main a{
+    text-decoration:none;
+    color:#000;
+}
+.orcamentos-cliente-main .orcamento .nome{
+    padding:5px;
+}
+.orcamentos-cliente-main .orcamento .status{
+    padding:5px;
+    display:table-cell;
+    font-weight: bold;
+}
+.orcamentos-cliente-main .orcamento .status.s1{
+    color:#ca3;
+}
+.orcamentos-cliente-main .orcamento .status.s2{
+    color: #3ECE99;
+}
+
+.solicitacoes{
+  
+    margin:10px;
+    border:1px solid #eee;
+    width:378px;
+    padding:10px;
+}
+.solicitacoes .solicitacao{
+    border-bottom:1px solid #eee;
+    padding:5px;
+    font-size:12px;
+}
+.solicitacoes .solicitacao .nome{
+
+    padding:5px;
+}
+.solicitacoes .solicitacao .status,
+.solicitacoes .solicitacao .prev-entrega{
+    padding:5px;
+    display:table-cell;
+    font-weight: bold;
+}
+.solicitacoes .solicitacao .status.s1{
+    color:#ca3;
+}
+#conteudo-boleto img{
+    height:70px;
+}
+#dados-boleto{
+    font-size:19px;
+}
+#dados-boleto .valor, #dados-boleto .vencimento{
+    float:left;
+    margin:7px;
+    padding:5px;
+}
+#entrada-ipte .iptes{
+    margin:auto;
+    display:table;
+}
+#entrada-ipte .iptes input{
+    margin:4px;
+}
+#in-barras{
+    width:70%;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+#nome-fornecedor{
+    position:relative;
+    display: table;
+}
+#nome-fornecedor .in.nome{
+    width: 500px;
+}
+#nome-fornecedor .info{
+    display:block;
+    padding:5px;
+}
