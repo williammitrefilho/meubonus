@@ -13,11 +13,11 @@ And then there was the light.
 
 It features two interfaces: admin and user
 
-##### 1. Admin
+##### 2.1. Admin
 <your_url>/admin is the administrator app, where the manager will add transactions.
 As is common in bookkeeping, there is no way to "delete" a transaction. A mistaken one must be compensated by another one of the same amount, opposite sign.
 
-##### 2. User
+##### 2.2. User
 <your_url>/ it the user app, where coworkers log in to check their balances.
 
 ### 3. Installing
