@@ -19,8 +19,10 @@ class ModelConta extends ModelBloco{
 		}
 		$saldo= $ret['saldo'] + $valor;
 
-		$query= "INSERT INTO mb_registros (data_lancado, data, conta, rubrica, valor, obs) VALUES ('".date("Y-m-d H:i:s")."', '".$data."', '".$ret['id']."', '".$rubrica."', '".$valor."', '".$obs."')";
-		if(!$db->query($query)){
+		$query= "INSERT INTO mb_registros (data_lancado, data, conta, rubrica, valor, obs) VALUES ('".date("Y-m-d H:i:s")."', '".$data."', '".$ret['id']."', '".$rubrica."', '".$valor."', ?)";
+		$stmt = $db->prepare($query);
+
+		if(!$stmt->execute([$obs])){
 
 			$this->erro= join(";", $db->errorInfo());
 			return false;
