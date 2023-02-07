@@ -36,6 +36,9 @@ class ControleConta extends ControleBloco{
 			echo json_encode(array("erro"=>"tipo invalido"));
 			return false;
 		}
+		if(isset($_POST['obs']){
+			$obs = $_POST['obs'];
+		}
 		$valor= "";
 		if((int)$_POST['tipo'] == 1){
 			$valor= $_POST['valor']/100;
