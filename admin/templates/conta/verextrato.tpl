@@ -39,7 +39,7 @@
 			$(".data").each(function(){
 
 				var pts= $(this).text().split("-");
-				$(this).text(pts[2]+"/"+pts[1]);
+				$(this).text(pts[2]+"/"+pts[1]+"/"+pts[0]);
 			});
 		</script>
 	</div>
