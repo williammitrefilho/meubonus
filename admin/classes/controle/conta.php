@@ -44,10 +44,6 @@ class ControleConta extends ControleBloco{
 
 			$valor= -$_POST['valor']/100;
 		}
-		if(isset($_POST['obs'])){
-
-			$obs= mysql_escape_string($_POST['obs']);
-		}
 
 //		return true;
 
